@@ -1,0 +1,454 @@
+*
+*::before
+*::after {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Nova Square', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #07252d;
+  color: white;
+  }
+
+  h1 {
+    position: absolute;
+    top: 30%;
+    font-size: 3.5em;
+    color: #0e3742;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+  }
+
+  @keyframes animate
+   {
+    0%
+    {
+        color:  #0e3742;
+        text-shadow: none;
+    }
+    100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px  #03bcf4,
+        0 0 40px  #03bcf4,
+        0 0 80px  #03bcf4,
+        0 0 160px  #03bcf4;
+    }
+  }
+
+  footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .mentionLegale h3 {
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 100%;
+    left: 60%; 
+    margin-bottom: 24px;
+  }
+
+  .mentionLegale {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 90%;
+    left: 43%;
+  }
+
+  .mention {
+    display: none;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 90%;
+    left: 45%; 
+    margin-top: 130px;
+    margin-left: 8px;
+    padding: 24px;
+  }
+
+  .debut button {
+    position: absolute;
+    left: 0%;
+    top: 15%;
+  }
+
+.navbar {
+  position: fixed;
+  z-index: 999;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
+  background-color: #000000;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.navbar .nav-links ul {
+  display: flex;
+   font-size: 1.01em;
+  font-weight: bold;
+}
+
+.navbar .nav-links ul li {
+  margin: 0 25px;
+  transition: all 0.5s ease-in-out;
+  list-style: none; 
+}
+
+a[href="#Formulaire"] {
+  border-left: solid 2px white;
+  padding-left: 8px;
+}
+
+.navbar .menu-burger {
+  display: none;
+  position: absolute;
+  width: 35px;
+  top: 50px;
+  right: 50px;
+}
+.navbar .boutton {
+  position: absolute;
+  width: 35px;
+  top: 50px;
+  right: -10px;
+}
+
+.navbar .nav-links ul li:hover {
+  font-size: 1.2em;
+}
+
+.debut {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.image0,
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6 {
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 5px black;
+  border-bottom: solid 5px black;
+}
+
+.imagetoi {
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 5px black;
+  border-bottom: solid 5px black;
+}
+
+.imagetoi h2 {
+  animation: wak 5s linear infinite;
+  }
+
+.image0{
+  background-image: url(Image/wakfu.webp);
+}
+.image1{
+background-image: url(Image/loup.webp);
+}
+.image2{
+  background-image: url(Image/kh.webp);
+}
+.image3{
+  background-image: url(Image/woods.webp);
+}
+.image4{
+  background-image: url(Image/spiderman.webp);
+}
+.image5{
+  background-image: url(Image/eau.webp);
+}
+.image6{
+  background-image: url(Image/cinéma.webp);
+}
+
+
+.image0 h2 {
+animation: wak 5s linear infinite;
+}
+
+
+@keyframes wak {
+ 0%
+ {
+     color:  black;
+     text-shadow: none;
+ }
+ 100%
+ {
+     color: #fff;
+     text-shadow: 0 0 10px turquoise, 0 0 20px   turquoise, 0 0 40px   turquoise, 0 0 80px   turquoise, 0 0 160px   turquoise;
+ }
+}
+
+.image1 h2 {
+animation: loup 5s linear infinite;
+}
+
+
+@keyframes loup {
+ 0%
+ {
+     color:  black;
+     text-shadow: none;
+ }
+ 100%
+ {
+     color: #fff;
+     text-shadow: 0 0 10px grey, 0 0 20px  grey, 0 0 40px  grey, 0 0 80px  grey, 0 0 160px  grey;
+ }
+}
+
+.image2 h2 {
+animation: kh 5s linear infinite;
+}
+
+
+@keyframes kh {
+ 0%
+ {
+     color:  black;
+     text-shadow: none;
+ }
+ 100%
+ {
+     color: #fff;
+     text-shadow: 0 0 10px goldenrod, 0 0 20px  goldenrod, 0 0 40px  goldenrod, 0 0 80px  goldenrod, 0 0 160px  goldenrod;
+ }
+}
+
+.image3 h2 {
+color: darkgreen;
+animation: meet 5s linear infinite;
+}
+
+
+@keyframes meet {
+ 0%
+ {
+     color:  black;
+     text-shadow: none;
+ }
+ 100%
+ {
+     color: #fff;
+     text-shadow: 0 0 10px darkgreen, 0 0 20px  darkgreen, 0 0 40px  darkgreen, 0 0 80px  darkgreen, 0 0 160px  darkgreen;
+ }
+}
+
+.image4 h2 {
+color: red;
+animation: spi 5s linear infinite;
+}
+
+
+@keyframes spi {
+ 0%
+ {
+     color:  black;
+     text-shadow: none;
+ }
+ 100%
+ {
+     color: #fff;
+     text-shadow: 0 0 10px red, 0 0 20px  red, 0 0 40px  red, 0 0 80px  red, 0 0 160px  red;
+ }
+}
+
+.image5 h2 {
+color: lightblue;
+animation: eau 5s linear infinite;
+}
+
+
+@keyframes eau {
+ 0%
+ {
+     color:  black;
+     text-shadow: none;
+ }
+ 100%
+ {
+     color: #fff;
+     text-shadow: 0 0 10px lightblue, 0 0 20px  lightblue, 0 0 40px  lightblue, 0 0 80px  lightblue, 0 0 160px  lightblue;
+ }
+}
+
+.image6 h2 {
+color: lightcoral;
+animation: cine 5s linear infinite;
+} 
+
+@keyframes cine {
+ 0%
+ {
+     color:  black;
+     text-shadow: none;
+ }
+ 100%
+ {
+     color: #fff;
+     text-shadow: 0 0 10px lightcoral, 0 0 20px  lightcoral, 0 0 40px  lightcoral, 0 0 80px  lightcoral, 0 0 160px  lightcoral;
+ }
+}
+
+.image0 button,
+.image1 button,
+.image2 button,
+.image3 button,
+.image4 button,
+.image5 button,
+.image6 button{
+  font-family: 'Nova Square', sans-serif;
+  color: white;
+  border: none;
+  background: transparent;
+  margin: 5px;
+}
+
+.fond0,
+.fond1,
+.fond2,
+.fond3,
+.fond4,
+.fond5,
+.fond6 {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+#show-modal-btn {
+  font-family: 'Nova Square', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  background: blue;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+#close-modal-btn {
+  font-family: 'Nova Square', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  background: blue;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+#modal {
+  max-width: 600px;
+  width: 100%;
+  padding: 8px;
+  block-size: border-box;
+  background: white;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#overlay {
+  height: 100vh;
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 98;
+}
+
+.modaltxt {
+  font-family: 'Nova Square', sans-serif;
+  color: black;
+}
+  
+.formu {
+  display: flex;
+  margin: 10px;
+  padding: 8px;
+  background: rgb(38, 202, 202);
+  border: solid 3px black;
+  /*Mettre des arrondis*/
+  border-radius: 20px;
+  width: 18%;
+  text-align: center;
+}
+
+form h2 {
+  color: white;
+}
+
+form input {
+  font-family: 'Nova Square', sans-serif;
+  margin: 5px;
+}
+
+.Envoyer {
+  font-family: 'Nova Square', sans-serif;
+  margin: 8px;
+  color: white;
+  background: lightskyblue;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}

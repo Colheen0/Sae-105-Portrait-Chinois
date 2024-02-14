@@ -1,0 +1,52 @@
+[
+    {"anl": "un animé", 
+    "valeuranl":"Wakfu",
+    "justify": "C'est un dessin animé incroyable qui combine plein de chose qui me parle : l'amitié, le partage, l'entraide, la créativité et l'envie de vivre des aventures. C'est vraiment intéressant de voir comment tout ça se mélange dans cette série, où l'amitié est super importante, où les gens s'entraident, où il y a plein d'idées créatives qui fusent, et où chaque moment devient une occasion de partir à l'aventure et de découvrir de nouvelles choses.",
+    "image": "./Image/Wakfu.jpg",
+    "alt":"yugo de wakfu",
+    "id":"1"
+    }, 
+    {"anl": "un animal", 
+    "valeuranl":"un loup",
+    "justify": "C'est un animal qui colle parfaitement à ma personnalité parce qu'il est loyal et protecteur. Pour ma part, je suis du genre à m'attacher super facilement et je suis prêt à déployer tous les efforts possibles pour soutenir mes proches. On peut dire que lui et moi, on se comprend sur ce coup-là.",
+    "image": "Image/Loup.jpg",
+    "alt":"Photo de loup",
+    "id":"2"
+    },
+    {"anl": "un jeu vidéo", 
+    "valeuranl":"Kingdom hearts",
+    "justify": "Cette série de jeux est vraiment spéciale pour moi, parce qu'elle me donne l'opportunité de plonger dans des univers super vastes et complexes. En plus, elle me ramène à l'époque où j'étais enfant, me reconnectant à cette part d'innocence et d'émerveillement. Tout comme moi, cette saga raconte des histoires qui semblent super compliquées au début, mais qui sont en fait hyper intéressantes. C'est un peu comme un retour en enfance avec une bonne dose de mystère et de fascination.",
+    "image": "./Image/KH.png",
+    "alt":"Photo de sora",
+    "id":"3"
+    },
+    {"anl": "une musique",
+     "valeuranl":"Meet me in the woods",
+     "justify": "Cette chanson a une ambiance plutôt posée, mais elle raconte une histoire intense. Quand on l'écoute, c'est comme si on se lançais dans un voyage mystérieux et un peu sombre, explorant les tréfonds de nôtre être. Elle nous transporte, nous fait ressentir des émotions puissantes, et nous emmène dans une aventure musicale qui nous laisse pensif et captivé. C'est un peu comme plonger dans un univers profond et mystique à chaque écoute.",
+     "image": "./Image/Woods.jpg",
+     "alt":"Photo d'un bois",
+     "id":"4" 
+    },
+    {"anl": "un super héro",
+     "valeuranl":"Spiderman",
+     "justify": "À mes yeux, il s'agit du meilleur héros jamais conçu, car il incarne avant tout l'humanité, partageant les mêmes expériences que nous, telles que tomber amoureux, achever ses études, trouver un emploi, se marier, etc. De plus, sa vulnérabilité le rend semblable à nous, loin de la perfection qu'on ne lui demande pas d'atteindre. Enfin, il incarne des qualités essentielles à la vie, et ces qualités se cristallisent dans sa phrase emblématique :'Un grand pouvoir implique de grande responsabilités !'",
+     "image": "./Image/Spiderman.jpeg",
+     "alt":"Photo de spiderman",
+     "id":"5"
+    },
+    {"anl": "un élément",
+     "valeuranl":"L'eau",
+     "justify": "C'est un élément qui joue sur les deux tableaux, à la fois tranquille et puissant, une sorte de dualité qu'on a tous en nous. C'est ça qui rend notre existence tellement compliquée et intéressante. Personnellement, je me sens connecté avec l'eau depuis que je suis enfant. C'est comme si elle était un autre monde où je peux lâcher toutes mes pensées, mes rêves et laisser mon imagination décoller. L'eau, c'est un peu comme mon terrain de jeu pour libérer tout ce qui bouillonne dans ma tête. C'est fou comment ça peut être à la fois apaisant et inspirant.",
+     "image": "./Image/eau.jpg",
+     "alt":"Photo de la mer",
+     "id":"6"
+    },
+    {"anl": "un art",
+     "valeuranl":"Le cinéma",
+     "justify": "À mes yeux, le cinéma représente un art essentiel, constituant l'évolution logique de la littérature. La littérature, quant à elle, offre aux humains la possibilité de se souvenir, de construire et de rêver, trois aspects cruciaux pour le développement de la race humaine. Ces capacités nous permettent de tirer des leçons du passé pour bâtir notre présent et imaginer l'avenir. Personnellement, je suis profondément attaché au cinéma, car c'est en grande partie grâce à lui que j'ai pu devenir l'homme que je suis aujourd'hui.",
+     "image": "/Image/Cinéma.jpg",
+     "alt":"Photo d'un cinéma",
+     "id":"7"
+    }]
+
+
